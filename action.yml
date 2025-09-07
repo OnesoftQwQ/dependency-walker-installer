@@ -1,0 +1,8 @@
+name: 'Download and Extract Dependency Walker'
+description: 'Downloads and extracts Dependency Walker to the user-specific AppData location'
+runs:
+  using: composite
+  steps:
+    - name: Download and extract Dependency Walker
+      run: ${{ github.action_path }}/action.ps1
+      shell: pwsh
