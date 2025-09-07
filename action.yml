@@ -1,5 +1,5 @@
-name: 'Download and Extract Dependency Walker'
-description: 'Downloads and extracts Dependency Walker to the user-specific AppData location'
+name: 'Dependency Walker Installer for Nuitka'
+description: 'Installs Dependency Walker to enable Nuitka onefile and standalone modes on Windows'
 runs:
   using: composite
   steps:
