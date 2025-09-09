@@ -12,7 +12,7 @@ Simply add this action before running Nuitka in your GitHub Actions workflow:
 
 ```yaml
 - name: Install Dependency Walker for Nuitka
-  uses: onesoftqwq/dependency-walker-installer@v1
+  uses: onesoftqwq/dependency-walker-installer@v1.0
 
 - name: Compile with Nuitka
   run: |
